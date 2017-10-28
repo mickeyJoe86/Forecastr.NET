@@ -220,10 +220,10 @@
   </Target>
   <Target Name="AfterBuild">    
   </Target>  -->
-  <Target Name="AfterBuild">
+  <!-- <Target Name="AfterBuild">
     <Exec Command="npm install --prefix Forecastr/forecastr-client" />
     <Message Text="NPM install Finished" />
     <Exec Command="npm run build --prefix Forecastr/forecastr-client" />
     <Message Text="Vue prod build Finished" />
-  </Target>
+  </Target> -->
 </Project>
