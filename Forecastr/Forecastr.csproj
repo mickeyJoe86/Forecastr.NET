@@ -127,6 +127,11 @@
     <Content Include="forecastr-client\config\index.js" />
     <Content Include="forecastr-client\config\prod.env.js" />
     <Content Include="forecastr-client\config\test.env.js" />
+    <Content Include="forecastr-client\dist\index.html" />
+    <Content Include="forecastr-client\dist\static\css\app.d03d7c2e69517f979391bec069f0d136.css" />
+    <Content Include="forecastr-client\dist\static\js\app.390ea7e47ffb0eab4914.js" />
+    <Content Include="forecastr-client\dist\static\js\manifest.52ba4af7b9998f57c2a7.js" />
+    <Content Include="forecastr-client\dist\static\js\vendor.c8931c1e41644ebffc2d.js" />
     <Content Include="forecastr-client\index.html" />
     <Content Include="forecastr-client\src\assets\logo.png" />
     <Content Include="forecastr-client\src\main.js" />
@@ -158,6 +163,9 @@
     <Content Include="forecastr-client\src\components\HelloWorld.vue" />
     <Content Include="forecastr-client\static\.gitkeep" />
     <Content Include="forecastr-client\test\unit\.eslintrc" />
+    <Content Include="forecastr-client\dist\static\js\app.390ea7e47ffb0eab4914.js.map" />
+    <Content Include="forecastr-client\dist\static\js\manifest.52ba4af7b9998f57c2a7.js.map" />
+    <Content Include="forecastr-client\dist\static\js\vendor.c8931c1e41644ebffc2d.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -212,7 +220,7 @@
   </Target>
   <Target Name="AfterBuild">    
   </Target>  -->
-  <Target Name="NpmBuild">
+  <Target Name="AfterBuild">
     <Exec Command="npm install --prefix Forecastr/forecastr-client" />
     <Message Text="NPM install Finished" />
     <Exec Command="npm run build --prefix Forecastr/forecastr-client" />
