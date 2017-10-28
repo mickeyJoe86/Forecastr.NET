@@ -212,7 +212,7 @@
   </Target>
   <Target Name="AfterBuild">    
   </Target>  -->
-  <Target Name="NpmBuild">
+  <Target Name="AfterBuild">
     <Exec Command="npm install --prefix forecastr-client" />
     <Message Text="NPM install Finished" />
     <Exec Command="npm run build --prefix forecastr-client" />
