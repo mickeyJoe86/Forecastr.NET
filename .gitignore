@@ -38,6 +38,3 @@ bld/
 *.nuget.targets
 
 .vs/
-
-##Client
-Forecastr/forecastr-client/node_modules/
