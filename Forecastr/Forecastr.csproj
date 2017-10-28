@@ -214,6 +214,8 @@
   </Target>  -->
   <Target Name="NpmBuild">
     <Exec Command="npm install --prefix forecastr-client" />
+    <Message Text="NPM install Finished" />
     <Exec Command="npm run build --prefix forecastr-client" />
+    <Message Text="Vue prod build Finished" />
   </Target>
 </Project>
