@@ -218,7 +218,10 @@
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
-  <Target Name="AfterBuild">
+  <Target Name="AfterBuild">    
+  </Target>  -->
+  <Target name="NpmBuild">
+    <Exec Command="npm install --prefix forecastr-client" />
+    <Exec Command="npm run build --prefix forecastr-client" />
   </Target>
-  -->
 </Project>
