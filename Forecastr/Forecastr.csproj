@@ -127,11 +127,10 @@
     <Content Include="forecastr-client\config\index.js" />
     <Content Include="forecastr-client\config\prod.env.js" />
     <Content Include="forecastr-client\config\test.env.js" />
-    <Content Include="index.html" />
-    <Content Include="static\css\app.d03d7c2e69517f979391bec069f0d136.css" />
-    <Content Include="static\js\app.390ea7e47ffb0eab4914.js" />
-    <Content Include="static\js\manifest.52ba4af7b9998f57c2a7.js" />
-    <Content Include="static\js\vendor.c8931c1e41644ebffc2d.js" />
+    <Content Include="forecastr-client\static\css\app.d03d7c2e69517f979391bec069f0d136.css" />
+    <Content Include="forecastr-client\static\js\app.390ea7e47ffb0eab4914.js" />
+    <Content Include="forecastr-client\static\js\manifest.0b0010b776ffd1764ee7.js" />
+    <Content Include="forecastr-client\static\js\vendor.c8931c1e41644ebffc2d.js" />
     <Content Include="forecastr-client\index.html" />
     <Content Include="forecastr-client\src\assets\logo.png" />
     <Content Include="forecastr-client\src\main.js" />
@@ -144,7 +143,16 @@
     <Content Include="forecastr-client\test\unit\karma.conf.js" />
     <Content Include="forecastr-client\test\unit\specs\Hello.spec.js" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="index.html" />
+    <Content Include="public\css\app.d03d7c2e69517f979391bec069f0d136.css" />
+    <Content Include="public\js\app.390ea7e47ffb0eab4914.js" />
+    <Content Include="public\js\app.c1ae186399aa45edae86.js" />
+    <Content Include="public\js\manifest.0b0010b776ffd1764ee7.js" />
+    <Content Include="public\js\manifest.77a98798ed659968a246.js" />
+    <Content Include="public\js\vendor.c8931c1e41644ebffc2d.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -157,15 +165,19 @@
     <Content Include="packages.config" />
     <Content Include="forecastr-client\.babelrc" />
     <Content Include="forecastr-client\.editorconfig" />
-    <Content Include="static\js\app.390ea7e47ffb0eab4914.js.map" />
-    <Content Include="static\js\vendor.c8931c1e41644ebffc2d.js.map" />
     <Content Include="forecastr-client\package.json" />
     <Content Include="forecastr-client\README.md" />
     <Content Include="forecastr-client\src\App.vue" />
     <Content Include="forecastr-client\src\components\HelloWorld.vue" />
-    <Content Include="forecastr-client\static\.gitkeep" />
     <Content Include="forecastr-client\test\unit\.eslintrc" />
-    <Content Include="static\js\manifest.52ba4af7b9998f57c2a7.js.map" />
+    <Content Include="forecastr-client\static\js\app.390ea7e47ffb0eab4914.js.map" />
+    <Content Include="forecastr-client\static\js\manifest.0b0010b776ffd1764ee7.js.map" />
+    <Content Include="forecastr-client\static\js\vendor.c8931c1e41644ebffc2d.js.map" />
+    <Content Include="public\js\app.390ea7e47ffb0eab4914.js.map" />
+    <Content Include="public\js\app.c1ae186399aa45edae86.js.map" />
+    <Content Include="public\js\manifest.0b0010b776ffd1764ee7.js.map" />
+    <Content Include="public\js\manifest.77a98798ed659968a246.js.map" />
+    <Content Include="public\js\vendor.c8931c1e41644ebffc2d.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
