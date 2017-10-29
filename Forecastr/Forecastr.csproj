@@ -170,7 +170,6 @@
     <Content Include="client\package.json" />
     <Content Include="client\README.md" />
     <Content Include="client\src\App.vue" />
-    <Content Include="client\src\components\HelloWorld.vue" />
     <Content Include="client\test\unit\.eslintrc" />
     <Content Include="client\static\js\app.390ea7e47ffb0eab4914.js.map" />
     <Content Include="client\static\js\manifest.0b0010b776ffd1764ee7.js.map" />
@@ -181,6 +180,8 @@
     <Content Include="public\js\app.05871df7e4a0aa89dafd.js.map" />
     <Content Include="public\js\manifest.60094f7270c00c99a0b4.js.map" />
     <Content Include="public\js\vendor.4cd7339e92c3290f5495.js.map" />
+    <Content Include="client\src\views\HelloWorld.vue" />
+    <Content Include="client\src\components\Header.vue" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
