@@ -171,11 +171,6 @@
     <Content Include="client\static\js\app.390ea7e47ffb0eab4914.js.map" />
     <Content Include="client\static\js\manifest.0b0010b776ffd1764ee7.js.map" />
     <Content Include="client\static\js\vendor.c8931c1e41644ebffc2d.js.map" />
-    <Content Include="public\js\app.390ea7e47ffb0eab4914.js.map" />
-    <Content Include="public\js\app.c1ae186399aa45edae86.js.map" />
-    <Content Include="public\js\manifest.0b0010b776ffd1764ee7.js.map" />
-    <Content Include="public\js\manifest.77a98798ed659968a246.js.map" />
-    <Content Include="public\js\vendor.c8931c1e41644ebffc2d.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
