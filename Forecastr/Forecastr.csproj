@@ -111,37 +111,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="forecastr-client\.gitignore" />
-    <Content Include="forecastr-client\.postcssrc.js" />
-    <Content Include="forecastr-client\build\build.js" />
-    <Content Include="forecastr-client\build\check-versions.js" />
-    <Content Include="forecastr-client\build\dev-client.js" />
-    <Content Include="forecastr-client\build\dev-server.js" />
-    <Content Include="forecastr-client\build\utils.js" />
-    <Content Include="forecastr-client\build\vue-loader.conf.js" />
-    <Content Include="forecastr-client\build\webpack.base.conf.js" />
-    <Content Include="forecastr-client\build\webpack.dev.conf.js" />
-    <Content Include="forecastr-client\build\webpack.prod.conf.js" />
-    <Content Include="forecastr-client\build\webpack.test.conf.js" />
-    <Content Include="forecastr-client\config\dev.env.js" />
-    <Content Include="forecastr-client\config\index.js" />
-    <Content Include="forecastr-client\config\prod.env.js" />
-    <Content Include="forecastr-client\config\test.env.js" />
-    <Content Include="forecastr-client\static\css\app.d03d7c2e69517f979391bec069f0d136.css" />
-    <Content Include="forecastr-client\static\js\app.390ea7e47ffb0eab4914.js" />
-    <Content Include="forecastr-client\static\js\manifest.0b0010b776ffd1764ee7.js" />
-    <Content Include="forecastr-client\static\js\vendor.c8931c1e41644ebffc2d.js" />
-    <Content Include="forecastr-client\index.html" />
-    <Content Include="forecastr-client\src\assets\logo.png" />
-    <Content Include="forecastr-client\src\main.js" />
-    <Content Include="forecastr-client\src\router\index.js" />
-    <Content Include="forecastr-client\test\e2e\custom-assertions\elementCount.js" />
-    <Content Include="forecastr-client\test\e2e\nightwatch.conf.js" />
-    <Content Include="forecastr-client\test\e2e\runner.js" />
-    <Content Include="forecastr-client\test\e2e\specs\test.js" />
-    <Content Include="forecastr-client\test\unit\index.js" />
-    <Content Include="forecastr-client\test\unit\karma.conf.js" />
-    <Content Include="forecastr-client\test\unit\specs\Hello.spec.js" />
+    <Content Include="client\.gitignore" />
+    <Content Include="client\.postcssrc.js" />
+    <Content Include="client\build\build.js" />
+    <Content Include="client\build\check-versions.js" />
+    <Content Include="client\build\dev-client.js" />
+    <Content Include="client\build\dev-server.js" />
+    <Content Include="client\build\utils.js" />
+    <Content Include="client\build\vue-loader.conf.js" />
+    <Content Include="client\build\webpack.base.conf.js" />
+    <Content Include="client\build\webpack.dev.conf.js" />
+    <Content Include="client\build\webpack.prod.conf.js" />
+    <Content Include="client\build\webpack.test.conf.js" />
+    <Content Include="client\config\dev.env.js" />
+    <Content Include="client\config\index.js" />
+    <Content Include="client\config\prod.env.js" />
+    <Content Include="client\config\test.env.js" />
+    <Content Include="client\static\css\app.d03d7c2e69517f979391bec069f0d136.css" />
+    <Content Include="client\static\js\app.390ea7e47ffb0eab4914.js" />
+    <Content Include="client\static\js\manifest.0b0010b776ffd1764ee7.js" />
+    <Content Include="client\static\js\vendor.c8931c1e41644ebffc2d.js" />
+    <Content Include="client\index.html" />
+    <Content Include="client\src\assets\logo.png" />
+    <Content Include="client\src\main.js" />
+    <Content Include="client\src\router\index.js" />
+    <Content Include="client\test\e2e\custom-assertions\elementCount.js" />
+    <Content Include="client\test\e2e\nightwatch.conf.js" />
+    <Content Include="client\test\e2e\runner.js" />
+    <Content Include="client\test\e2e\specs\test.js" />
+    <Content Include="client\test\unit\index.js" />
+    <Content Include="client\test\unit\karma.conf.js" />
+    <Content Include="client\test\unit\specs\Hello.spec.js" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="public\css\app.d03d7c2e69517f979391bec069f0d136.css" />
@@ -164,16 +164,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="forecastr-client\.babelrc" />
-    <Content Include="forecastr-client\.editorconfig" />
-    <Content Include="forecastr-client\package.json" />
-    <Content Include="forecastr-client\README.md" />
-    <Content Include="forecastr-client\src\App.vue" />
-    <Content Include="forecastr-client\src\components\HelloWorld.vue" />
-    <Content Include="forecastr-client\test\unit\.eslintrc" />
-    <Content Include="forecastr-client\static\js\app.390ea7e47ffb0eab4914.js.map" />
-    <Content Include="forecastr-client\static\js\manifest.0b0010b776ffd1764ee7.js.map" />
-    <Content Include="forecastr-client\static\js\vendor.c8931c1e41644ebffc2d.js.map" />
+    <Content Include="client\.babelrc" />
+    <Content Include="client\.editorconfig" />
+    <Content Include="client\package.json" />
+    <Content Include="client\README.md" />
+    <Content Include="client\src\App.vue" />
+    <Content Include="client\src\components\HelloWorld.vue" />
+    <Content Include="client\test\unit\.eslintrc" />
+    <Content Include="client\static\js\app.390ea7e47ffb0eab4914.js.map" />
+    <Content Include="client\static\js\manifest.0b0010b776ffd1764ee7.js.map" />
+    <Content Include="client\static\js\vendor.c8931c1e41644ebffc2d.js.map" />
     <Content Include="public\js\app.390ea7e47ffb0eab4914.js.map" />
     <Content Include="public\js\app.c1ae186399aa45edae86.js.map" />
     <Content Include="public\js\manifest.0b0010b776ffd1764ee7.js.map" />
@@ -188,8 +188,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="client\dist\" />
     <Folder Include="Controllers\" />
-    <Folder Include="forecastr-client\dist\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
