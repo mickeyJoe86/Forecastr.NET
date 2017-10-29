@@ -1,13 +1,21 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+  <body>    
+    <div id="app">
+      <navigation-component></navigation-component>  
+      <router-view/>
+    </div>
+  </body>
 </template>
 
 <script>
+import 'vue-material/dist/vue-material.css'
+import NavigationComponent from './components/Header'
+
 export default {
-  name: 'app'
+  name: 'app',
+    components: {
+    NavigationComponent    
+  }
 }
 </script>
 
@@ -18,6 +26,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
