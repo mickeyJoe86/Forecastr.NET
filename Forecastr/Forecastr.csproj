@@ -144,12 +144,10 @@
     <Content Include="client\test\unit\specs\Hello.spec.js" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
-    <Content Include="public\css\app.d03d7c2e69517f979391bec069f0d136.css" />
-    <Content Include="public\js\app.390ea7e47ffb0eab4914.js" />
-    <Content Include="public\js\app.c1ae186399aa45edae86.js" />
-    <Content Include="public\js\manifest.0b0010b776ffd1764ee7.js" />
-    <Content Include="public\js\manifest.77a98798ed659968a246.js" />
-    <Content Include="public\js\vendor.c8931c1e41644ebffc2d.js" />
+    <Content Include="public\css\app.css" />
+    <Content Include="public\js\app.js" />
+    <Content Include="public\js\manifest.js" />
+    <Content Include="public\js\vendor.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -174,11 +172,9 @@
     <Content Include="client\static\js\app.390ea7e47ffb0eab4914.js.map" />
     <Content Include="client\static\js\manifest.0b0010b776ffd1764ee7.js.map" />
     <Content Include="client\static\js\vendor.c8931c1e41644ebffc2d.js.map" />
-    <Content Include="public\js\app.390ea7e47ffb0eab4914.js.map" />
-    <Content Include="public\js\app.c1ae186399aa45edae86.js.map" />
-    <Content Include="public\js\manifest.0b0010b776ffd1764ee7.js.map" />
-    <Content Include="public\js\manifest.77a98798ed659968a246.js.map" />
-    <Content Include="public\js\vendor.c8931c1e41644ebffc2d.js.map" />
+    <Content Include="public\js\app.js.map" />
+    <Content Include="public\js\manifest.js.map" />
+    <Content Include="public\js\vendor.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
