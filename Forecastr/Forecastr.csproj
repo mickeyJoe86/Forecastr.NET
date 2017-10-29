@@ -144,6 +144,7 @@
     <Content Include="client\test\unit\specs\Hello.spec.js" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="public\css\app.52223f7955cbc01ebde34286c2caca19.css" />
     <Content Include="public\css\app.d03d7c2e69517f979391bec069f0d136.css" />
     <Content Include="public\js\app.05871df7e4a0aa89dafd.js" />
     <Content Include="public\js\app.390ea7e47ffb0eab4914.js" />
