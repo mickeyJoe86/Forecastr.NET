@@ -1,8 +1,8 @@
 <template>
   <div>    
     <div class="main-content">
-      <h1>{{msg}}</h1>
-      <h2>Stay tuned</h2>
+      <h2>{{msg}}</h2>
+      <h3>Stay tuned</h3>
     </div>
   </div>
 </template>

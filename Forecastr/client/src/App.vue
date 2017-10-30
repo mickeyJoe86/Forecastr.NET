@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import 'vue-material/dist/vue-material.css'
+import '../node_modules/vuetify/dist/vuetify.min.css'
 import NavigationComponent from './components/Header'
 
 export default {
